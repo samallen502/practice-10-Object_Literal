@@ -7,7 +7,7 @@ var person = { /* The curly braces mean that an OBJECT is represented. Brackets 
 };
 
 function print(message) {
-    var div = document.getElementById('output');
+    var div = document.getElementById('listDiv');
     div.innerHTML = message;
 }
 
